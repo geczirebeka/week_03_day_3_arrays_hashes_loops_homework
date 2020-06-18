@@ -61,10 +61,13 @@ p users ["Erik"][:home_town]
 # 3. Get the array of Erik's lottery numbers
 p users ["Erik"][:lottery_numbers]
 # 4. Get the species of Avril's pet Monty
-p users ["Avril"][:pets][:species(2)]
+
 # 5. Get the smallest of Erik's lottery numbers
+p users ["Erik"][:lottery_numbers][2]
 # 6. Return an array of Avril's lottery numbers that are even
+
 # 7. Erik is one lottery number short! Add the number `7` to be included in his lottery numbers
+
 # 8. Change Erik's hometown to Edinburgh
 # 9. Add a pet dog to Erik called "Fluffy"
 # 10. Add another person to the users hash
